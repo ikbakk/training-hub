@@ -15,7 +15,7 @@ import { Link, NavLink } from "react-router";
 const items = [
   {
     title: "E-Learning",
-    url: "test",
+    url: "#learningpath",
     icon: Home,
   },
   {
