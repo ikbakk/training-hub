@@ -2,6 +2,7 @@ import HomeIntro from "~/components/home/intro";
 import type { Route } from "./+types";
 import LearningPath from "~/components/home/learning-path";
 import Videos from "~/components/home/videos";
+import Webinars from "~/components/home/webinars";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeIntro />
       <LearningPath />
       <Videos />
+      <Webinars />
     </div>
   );
 }
