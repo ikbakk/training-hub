@@ -1,4 +1,11 @@
-import { Home, Search, Settings, SlidersIcon, Video } from "lucide-react";
+import {
+  Home,
+  Presentation,
+  Search,
+  Settings,
+  SlidersIcon,
+  Video,
+} from "lucide-react";
 
 import {
   Sidebar,
@@ -25,22 +32,12 @@ const items = [
   },
   {
     title: "Webinars",
-    url: "#",
-    icon: SlidersIcon,
-  },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
+    url: "#webinars",
+    icon: Presentation,
   },
 ];
 
-export function AppSidebar() {
+export default function AppSidebar() {
   return (
     <Sidebar>
       <SidebarContent className="p-4 gap-8">
