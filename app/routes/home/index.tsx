@@ -1,6 +1,7 @@
 import HomeIntro from "~/components/home/intro";
 import type { Route } from "./+types";
 import LearningPath from "~/components/home/learning-path";
+import Videos from "~/components/home/videos";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -14,6 +15,7 @@ export default function Home() {
     <div className="bg-background">
       <HomeIntro />
       <LearningPath />
+      <Videos />
     </div>
   );
 }

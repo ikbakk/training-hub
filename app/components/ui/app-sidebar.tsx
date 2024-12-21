@@ -20,7 +20,7 @@ const items = [
   },
   {
     title: "Videos",
-    url: "#",
+    url: "#videos",
     icon: Video,
   },
   {
